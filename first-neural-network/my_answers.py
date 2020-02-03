@@ -23,6 +23,7 @@ class NeuralNetwork(object):
 
 
         self.activation_function = lambda x : 1 / (1 + np.exp(-x))  # Replace 0 with your sigmoid calculation.
+
         
         
         ### If the lambda code above is not something you're familiar with,
